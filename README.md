@@ -1,11 +1,25 @@
-<div align="center">
+# 🧠 QuizGen AI
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+QuizGen AI is an intelligent quiz generator that turns any topic into an interactive learning experience. Powered by Google's Gemini API, it generates questions, validates answers, and provides detailed explanations in real-time.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+-   **Prompt-to-Quiz:** Generate unique quizzes on any subject instantly.
+-   **Adaptive Difficulty:** Choose between Easy, Medium, and Hard modes.
+-   **Instant Feedback:** Get real-time scoring and AI-generated explanations for every answer.
+-   **User Accounts:** Secure login and registration via Firebase Auth.
+-   **History Tracking:** Review past quiz scores and topics saved in Cloud Firestore.
+-   **Responsive Design:** optimized for mobile and desktop using Tailwind CSS.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🛠️ Tech Stack
 
-</div>
+-   **Core:** React 19, TypeScript
+-   **Styling:** Tailwind CSS, Framer Motion
+-   **AI:** Google Gemini 2.5 Flash
+-   **Infrastructure:** Firebase Authentication, Firestore Database
+
+## 📦 Setup
+
+1.  Clone the repository.
+2.  Set up your `.env` file with your `API_KEY` (Gemini) and Firebase config.
+3.  Run the application (configured for ES Modules/Vite).
